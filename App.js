@@ -144,7 +144,7 @@ class InfoApp extends Component {
           <View style={styles.modalView}>
             <Text style={{
                 marginBottom: 10,
-              }}>Hi ! I"m Clément, a french developer and I will work on Robotics but maybe, one day, I have to come back to computer domain... So I made this little app during summer break to learn some usefull tech like Node.js or React native because my computer science university didn"t do it.</Text>
+              }}>Hi ! I'm Clément, a french developer and I will work on Robotics but maybe, one day, I have to come back to computer domain... So I made this little app during summer break to learn some usefull tech like Node.js or React native because my computer science university didn't do it.</Text>
             <Button color="black" title="Hide popup" onPress={() => {
                 console.log("close mystery box pop-up");
                 this.setModalVisible(!modalVisible)
