@@ -8,6 +8,8 @@ import MusicItem from "./MusicItem";
 const axios = require("axios");
 import ytdl from "react-native-ytdl"
 
+const GOOGLE_API_KEY = "YOUR___API___KEY";
+
 class App extends Component {
   constructor(props) {
     super(props)
@@ -36,7 +38,7 @@ class App extends Component {
       musicList: [],
       onLoading: true
     })
-    axios.get("https://www.googleapis.com/youtube/v3/search?key=AIzaSyDNCtyvWgxYPluMxGsKgL2No7sFJtnA4KQ&type=video&q=" + this.state.search.replace(/\ /g, "%20"))
+    axios.get("https://www.googleapis.com/youtube/v3/search?key="+GOOGLE_API_KEY+"&type=video&q=" + this.state.search.replace(/\ /g, "%20"))
     .then(async (response) => {
       //console.log(response);
 
