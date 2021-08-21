@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import { Image, Text, View, TouchableOpacity } from 'react-native';
+import React, { Component } from "react";
+import { Image, Text, View, TouchableOpacity } from "react-native";
 
 
-import { Audio } from 'expo-av'
+import { Audio } from "expo-av"
 
 import styles from "./style"
 
@@ -54,8 +54,8 @@ class MusicItem extends Component {
           <TouchableOpacity onPress={this.onPress}>
             {
             this.state.onPlay 
-            ? <Image style={styles.playAndPauseButton} source={require('./images/icons/pause_circle_filled.png')}/>
-            : <Image style={styles.playAndPauseButton} source={require('./images/icons/play_circle_filled.png')}/>
+            ? <Image style={styles.playAndPauseButton} source={require("./images/icons/pause_circle_filled.png")}/>
+            : <Image style={styles.playAndPauseButton} source={require("./images/icons/play_circle_filled.png")}/>
             }
           </TouchableOpacity>
           <Text style={styles.musicTitle}>{this.state.title}</Text>

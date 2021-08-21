@@ -6,24 +6,24 @@ export default StyleSheet.create({
     flex: 2,
     marginTop: 0,
     padding: 5,
-    backgroundColor: '#FFAE03',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#FFAE03",
+    alignItems: "center",
+    justifyContent: "center",
     flexDirection: "row"
   },
   middleContainer: {
     flex: 10,
     width: "100%",
-    backgroundColor: '#007CBE',
-    alignItems: 'center',
-    //justifyContent: 'center',
+    backgroundColor: "#007CBE",
+    alignItems: "center",
+    //justifyContent: "center",
   },
   
   botContainer: {
     flex: 1,
-    backgroundColor: '#FFAE03',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#FFAE03",
+    alignItems: "center",
+    justifyContent: "center",
     flexDirection: "row"
   },
   mainTitle:{
@@ -38,10 +38,10 @@ export default StyleSheet.create({
   },
   items: {
     width: "100%",
-    alignItems: 'center',
+    alignItems: "center",
   },
   searchInput:{
-    backgroundColor: '#fff',
+    backgroundColor: "#fff",
     height: 40,
     width: "100%",
     margin: 10,
@@ -51,13 +51,13 @@ export default StyleSheet.create({
     //flex: 1,
     flexDirection: "row",
     height: 100,
-    alignItems: 'center',
-    justifyContent: 'flex-start',
+    alignItems: "center",
+    justifyContent: "flex-start",
     padding: 10,
     margin: 5,
     width: "100%",
 
-    backgroundColor: '#CD4631',
+    backgroundColor: "#CD4631",
     borderRadius: 20,
 
   },
@@ -65,28 +65,28 @@ export default StyleSheet.create({
     //flex: 1,
     flexDirection: "row",
     height: 100,
-    alignItems: 'center',
-    justifyContent: 'flex-start',
+    alignItems: "center",
+    justifyContent: "flex-start",
     padding: 10,
     margin: 5,
     width: "100%",
 
-    backgroundColor: '#F40000',
+    backgroundColor: "#F40000",
     borderRadius: 5,
 
   },
   
   searchBox: {
-    flexDirection: 'row',
+    flexDirection: "row",
     width: window.width,
     margin: 10,
     padding: 4,
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: "center",
+    justifyContent: "center",
     borderWidth: 2,
-    borderColor: '#000',
+    borderColor: "#000",
     borderRadius: 10,
-    backgroundColor: '#fff'
+    backgroundColor: "#fff"
   },
   modalScreen:{
     flex: 1,
