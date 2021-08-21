@@ -1,6 +1,10 @@
 # YoutubeMP3PlayerReactNative
 Simple youtube light client made with React Native
 
+# Require :
+- Google api keys (youtube query search)
+
+
 # Install :
 
 ### Modules :
