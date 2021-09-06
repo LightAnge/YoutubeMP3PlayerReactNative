@@ -20,4 +20,6 @@ Run with :
   or 
   expo start
 ``` 
+# Screenshots :
 
+<img src="https://github.com/LightAnge/YoutubeMP3PlayerReactNative/blob/main/screenshots/1.PNG?raw=true" width="480">
