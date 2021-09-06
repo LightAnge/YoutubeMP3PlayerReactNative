@@ -23,3 +23,7 @@ Run with :
 # Screenshots :
 
 <img src="https://raw.githubusercontent.com/LightAnge/YoutubeMP3PlayerReactNative/main/screenshots/1.png?raw=true" width="480">
+
+<img src="https://raw.githubusercontent.com/LightAnge/YoutubeMP3PlayerReactNative/main/screenshots/2.png?raw=true" width="480">
+
+<img src="https://raw.githubusercontent.com/LightAnge/YoutubeMP3PlayerReactNative/main/screenshots/3.png?raw=true" width="480">
