@@ -22,4 +22,4 @@ Run with :
 ``` 
 # Screenshots :
 
-<img src="https://github.com/LightAnge/YoutubeMP3PlayerReactNative/blob/main/screenshots/1.PNG?raw=true" width="480">
+<img src="https://raw.githubusercontent.com/LightAnge/YoutubeMP3PlayerReactNative/main/screenshots/1.png?raw=true" width="480">
